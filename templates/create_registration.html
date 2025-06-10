@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block content %}
+<form id="registrationForm" method="POST">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" value = {{ username }} readonly>
+
+    <label for="owned_parking_lot">Owned Parking Lot</label>
+    <select name="owned_parking_lot" id="parking_lot">
+        {% for item in parking_lot_list %}
+        <option value="{{ item }}">{{ item }}</option>
+        {% endfor %}
+    </select>
+
+    <!-- <label for="start">Start Time:</label>
+    <input type="datetime-local" id="start" name="start_time" required>
+
+    <label for="end">End Time:</label>
+    <input type="datetime-local" id="end" name="end_time" required>
+
+    <label for="empty">Empty</label>
+    <input type="checkbox" id="empty" name="empty">
+
+    <label for="booked">Booked</label>
+    <input type="checkbox" id="booked" name="booked"> -->
+
+    <button type="submit">Create Registration</button>
+</form>
+<!-- The script is for check if Start Time is earlier than End Time-->
+<script>
+    document.getElementById("registrationForm").addEventListener("submit", function(event) {
+        const startTime = new Date(document.getElementById("start").value);
+        const endTime = new Date(document.getElementById("end").value);
+
+        if (startTime >= endTime) {
+            event.preventDefault();
+            alert("Start Time must be earlier than End Time.");
+        }
+    });
+</script>
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %} parked unbooked parking lots {% endblock %}
+
+{% block content %}
+{% if lots %}
+<table>
+    <thead>
+        <tr>
+            <th>Parked Unbooked Parking Lots</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for lot in lots %}
+        <tr>
+            <td>{{ lot }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<p>No parked unbooked parking lots found.</p>
+{% endif %}
+
+{% endblock %}

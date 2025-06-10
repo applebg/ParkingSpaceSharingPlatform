@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+<style>
+    a:link {
+    background-color: yellow;
+}
+
+</style>
+{% block content %}
+    <h1 class="mt-4">Parking Lot Registrations</h1>
+    <table class="table table-striped mt-4">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Owner</th>
+                <th>Owned Parking Lot</th>
+                <th>Start Time</th>
+                <th>End Time</th>
+                <th>Empty</th>
+                <th>Booked</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for registration in registrations %}
+            <tr>
+                <td>{{ registration[0].id }}</td>
+                <td>{{ registration[0].name }}</td>
+                <td>{{ registration[0].owned_parking_lot }}</td>
+                <td>{{ registration[1].start_time }}</td>
+                <td>{{ registration[1].end_time }}</td>
+                <td>{{ 'Yes' if registration[0].empty else 'No' }}</td>
+                <td>{{ 'Yes' if registration[0].booked else 'No' }}</td>
+                {% if current_user.role == "owner" or current_user.role == "admin"%}
+                <td>
+                    <a href="{{ url_for('update_registration', id=registration[0].id) }} " class="btn btn-warning btn-sm">Edit</a>
+                    <form action="{{ url_for('delete_registration', id=registration[0].id) }}" method="POST" style="display:inline;">
+                        <button type="submit"  class="btn btn-danger btn-sm">Delete</button>
+                    </form>
+                </td>
+                {% endif%}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

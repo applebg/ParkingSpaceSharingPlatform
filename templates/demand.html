@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <h2>Demand Registration</h2>
+    <form id="demandForm" action="{{ url_for('create_borrower') }}" method="post">
+        <!-- CSRF Token (Flask-WTF required if CSRF protection is enabled) -->
+        
+        
+        <!-- Name Input -->
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value={{ username }} readonly>
+        </div>
+        
+        <!-- Start Time Input -->
+        <div class="form-group">
+            <label for="start_time">Start Time:</label>
+            <input type="datetime-local" id="start_time" name="start_time" required>
+        </div>
+        
+        <!-- End Time Input -->
+        <div class="form-group">
+            <label for="end_time">End Time:</label>
+            <input type="datetime-local" id="end_time" name="end_time" required>
+        </div>
+        
+        <!-- Submit Button -->
+        <button type="submit">Register</button>
+    </form>
+</div>
+<!-- The script is for check if Start Time is earlier than End Time-->
+<script>
+    document.getElementById("demandForm").addEventListener("submit", function(event) {
+        const startTime = new Date(document.getElementById("start_time").value);
+        const endTime = new Date(document.getElementById("end_time").value);
+
+        if (startTime >= endTime) {
+            event.preventDefault();
+            alert("Start Time must be earlier than End Time.");
+        }
+    });
+</script>
+{% endblock %}

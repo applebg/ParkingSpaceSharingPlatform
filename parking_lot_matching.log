@@ -1,0 +1,498 @@
+2025-06-10 08:13:35,822 - INFO - Starting First Fit matching process with interval splitting.
+2025-06-10 08:13:35,827 - INFO - Processing borrower ID 1 (apple), requested time: 2024-11-20 15:00:00 to 2024-11-20 16:00:00.
+2025-06-10 08:13:35,829 - WARNING - No available parking lot for borrower apple.
+2025-06-10 08:13:35,830 - INFO - Processing borrower ID 6 (apple1), requested time: 2024-11-22 09:00:00 to 2024-11-22 11:00:00.
+2025-06-10 08:13:35,831 - INFO - Match found: Borrower apple1 -> Parking lot (1,12) owned by user1.
+2025-06-10 08:13:35,832 - INFO - Processing borrower ID 7 (apple2), requested time: 2024-11-22 11:00:00 to 2024-11-22 13:00:00.
+2025-06-10 08:13:35,833 - INFO - Match found: Borrower apple2 -> Parking lot (1,9) owned by user1.
+2025-06-10 08:13:35,833 - INFO - Processing borrower ID 8 (apple3), requested time: 2024-11-22 13:00:00 to 2024-11-22 15:00:00.
+2025-06-10 08:13:35,834 - INFO - Match found: Borrower apple3 -> Parking lot (1,4) owned by user.
+2025-06-10 08:13:35,836 - INFO - Processing borrower ID 9 (apple4), requested time: 2024-11-22 16:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:13:35,838 - INFO - Match found: Borrower apple4 -> Parking lot (1,10) owned by user1.
+2025-06-10 08:13:35,838 - INFO - Processing borrower ID 1 (apple), requested time: 2024-11-22 08:00:00 to 2024-11-22 10:00:00.
+2025-06-10 08:13:35,840 - INFO - Match found: Borrower apple -> Parking lot (3,3) owned by user2.
+2025-06-10 08:13:35,841 - INFO - Processing borrower ID 1 (apple), requested time: 2024-11-22 13:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:13:35,842 - INFO - Match found: Borrower apple -> Parking lot (4,6) owned by user3.
+2025-06-10 08:13:35,844 - INFO - Processing borrower ID 6 (apple1), requested time: 2024-11-22 14:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:13:35,846 - INFO - Match found: Borrower apple1 -> Parking lot (3,6) owned by user2.
+2025-06-10 08:13:35,847 - INFO - Processing borrower ID 7 (apple2), requested time: 2024-11-22 14:00:00 to 2024-11-22 16:00:00.
+2025-06-10 08:13:35,847 - INFO - Match found: Borrower apple2 -> Parking lot (3,5) owned by user2.
+2025-06-10 08:13:35,849 - INFO - Processing borrower ID 7 (apple2), requested time: 2024-11-22 17:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:13:35,849 - INFO - Match found: Borrower apple2 -> Parking lot (4,7) owned by user3.
+2025-06-10 08:13:35,851 - INFO - Processing borrower ID 8 (apple3), requested time: 2024-11-22 08:00:00 to 2024-11-22 09:00:00.
+2025-06-10 08:13:35,852 - INFO - Match found: Borrower apple3 -> Parking lot (3,9) owned by user2.
+2025-06-10 08:13:35,853 - INFO - Processing borrower ID 8 (apple3), requested time: 2024-11-22 11:00:00 to 2024-11-22 12:00:00.
+2025-06-10 08:13:35,854 - INFO - Match found: Borrower apple3 -> Parking lot (1,2) owned by user1.
+2025-06-10 08:13:35,855 - INFO - Processing borrower ID 8 (apple3), requested time: 2024-11-22 17:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:13:35,856 - INFO - Match found: Borrower apple3 -> Parking lot (3,14) owned by user3.
+2025-06-10 08:13:35,857 - INFO - Processing borrower ID 9 (apple4), requested time: 2024-11-22 08:00:00 to 2024-11-22 09:00:00.
+2025-06-10 08:13:35,858 - INFO - Match found: Borrower apple4 -> Parking lot (4,4) owned by user3.
+2025-06-10 08:13:35,859 - INFO - Processing borrower ID 9 (apple4), requested time: 2024-11-22 10:00:00 to 2024-11-22 11:00:00.
+2025-06-10 08:13:35,860 - INFO - Match found: Borrower apple4 -> Parking lot (1,7) owned by user.
+2025-06-10 08:13:35,862 - INFO - Processing borrower ID 9 (apple4), requested time: 2024-11-22 13:00:00 to 2024-11-22 15:00:00.
+2025-06-10 08:13:35,863 - INFO - Match found: Borrower apple4 -> Parking lot (3,12) owned by user2.
+2025-06-10 08:13:35,865 - INFO - Processing borrower ID 10 (apple5), requested time: 2024-11-22 08:00:00 to 2024-11-22 13:00:00.
+2025-06-10 08:13:35,866 - INFO - Match found: Borrower apple5 -> Parking lot (4,10) owned by user3.
+2025-06-10 08:13:35,866 - INFO - Processing borrower ID 10 (apple5), requested time: 2024-11-22 15:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:13:35,867 - WARNING - No available parking lot for borrower apple5.
+2025-06-10 08:13:35,867 - INFO - Processing borrower ID 11 (apple6), requested time: 2024-11-22 08:00:00 to 2024-11-22 10:00:00.
+2025-06-10 08:13:35,868 - WARNING - No available parking lot for borrower apple6.
+2025-06-10 08:13:35,868 - INFO - Processing borrower ID 11 (apple6), requested time: 2024-11-22 13:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:13:35,868 - WARNING - No available parking lot for borrower apple6.
+2025-06-10 08:13:35,868 - INFO - Processing borrower ID 12 (apple7), requested time: 2024-11-22 08:00:00 to 2024-11-22 11:00:00.
+2025-06-10 08:13:35,869 - WARNING - No available parking lot for borrower apple7.
+2025-06-10 08:13:35,869 - INFO - Processing borrower ID 12 (apple7), requested time: 2024-11-22 12:00:00 to 2024-11-22 13:00:00.
+2025-06-10 08:13:35,870 - INFO - Match found: Borrower apple7 -> Parking lot (3,7) owned by user2.
+2025-06-10 08:13:35,871 - INFO - Processing borrower ID 12 (apple7), requested time: 2024-11-22 13:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:13:35,872 - WARNING - No available parking lot for borrower apple7.
+2025-06-10 08:13:35,872 - INFO - Processing borrower ID 13 (apple8), requested time: 2024-11-22 08:00:00 to 2024-11-22 09:00:00.
+2025-06-10 08:13:35,873 - WARNING - No available parking lot for borrower apple8.
+2025-06-10 08:13:35,873 - INFO - Processing borrower ID 13 (apple8), requested time: 2024-11-22 10:00:00 to 2024-11-22 12:00:00.
+2025-06-10 08:13:35,874 - INFO - Match found: Borrower apple8 -> Parking lot (1,8) owned by user1.
+2025-06-10 08:13:35,874 - INFO - Processing borrower ID 13 (apple8), requested time: 2024-11-22 13:00:00 to 2024-11-22 15:00:00.
+2025-06-10 08:13:35,875 - INFO - Match found: Borrower apple8 -> Parking lot (4,5) owned by user3.
+2025-06-10 08:13:35,876 - INFO - Processing borrower ID 13 (apple8), requested time: 2024-11-22 16:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:13:35,878 - WARNING - No available parking lot for borrower apple8.
+2025-06-10 08:13:35,878 - INFO - Processing borrower ID 14 (apple9), requested time: 2024-11-22 09:00:00 to 2024-11-22 10:00:00.
+2025-06-10 08:13:35,879 - INFO - Match found: Borrower apple9 -> Parking lot (1,6) owned by user.
+2025-06-10 08:13:35,879 - INFO - Processing borrower ID 14 (apple9), requested time: 2024-11-22 11:00:00 to 2024-11-22 12:00:00.
+2025-06-10 08:13:35,880 - INFO - Match found: Borrower apple9 -> Parking lot (3,2) owned by user.
+2025-06-10 08:13:35,881 - INFO - Processing borrower ID 14 (apple9), requested time: 2024-11-22 13:00:00 to 2024-11-22 14:00:00.
+2025-06-10 08:13:35,882 - INFO - Match found: Borrower apple9 -> Parking lot (4,8) owned by user3.
+2025-06-10 08:13:35,883 - INFO - Processing borrower ID 14 (apple9), requested time: 2024-11-22 15:00:00 to 2024-11-22 17:00:00.
+2025-06-10 08:13:35,885 - INFO - Match found: Borrower apple9 -> Parking lot (1,5) owned by user.
+2025-06-10 08:13:35,885 - INFO - Processing borrower ID 15 (apple10), requested time: 2024-11-22 08:00:00 to 2024-11-22 10:00:00.
+2025-06-10 08:13:35,886 - WARNING - No available parking lot for borrower apple10.
+2025-06-10 08:13:35,886 - INFO - Processing borrower ID 15 (apple10), requested time: 2024-11-22 11:00:00 to 2024-11-22 12:00:00.
+2025-06-10 08:13:35,887 - INFO - Match found: Borrower apple10 -> Parking lot (3,11) owned by user1.
+2025-06-10 08:13:35,888 - INFO - Processing borrower ID 15 (apple10), requested time: 2024-11-22 13:00:00 to 2024-11-22 15:00:00.
+2025-06-10 08:13:35,889 - INFO - Match found: Borrower apple10 -> Parking lot (3,13) owned by user3.
+2025-06-10 08:13:35,891 - INFO - Processing borrower ID 15 (apple10), requested time: 2024-11-22 17:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:13:35,892 - WARNING - No available parking lot for borrower apple10.
+2025-06-10 08:13:35,892 - INFO - Processing borrower ID 16 (apple11), requested time: 2024-11-22 08:00:00 to 2024-11-22 09:00:00.
+2025-06-10 08:13:35,893 - WARNING - No available parking lot for borrower apple11.
+2025-06-10 08:13:35,893 - INFO - Processing borrower ID 16 (apple11), requested time: 2024-11-22 13:00:00 to 2024-11-22 14:00:00.
+2025-06-10 08:13:35,894 - INFO - Match found: Borrower apple11 -> Parking lot (4,9) owned by user3.
+2025-06-10 08:13:35,896 - INFO - Processing borrower ID 16 (apple11), requested time: 2024-11-22 15:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:13:35,897 - WARNING - No available parking lot for borrower apple11.
+2025-06-10 08:13:35,898 - INFO - Processing borrower ID 17 (apple12), requested time: 2024-11-22 09:00:00 to 2024-11-22 11:00:00.
+2025-06-10 08:13:35,899 - INFO - Match found: Borrower apple12 -> Parking lot (3,4) owned by user2.
+2025-06-10 08:13:35,900 - INFO - Processing borrower ID 17 (apple12), requested time: 2024-11-22 12:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:13:35,901 - WARNING - No available parking lot for borrower apple12.
+2025-06-10 08:13:35,901 - INFO - Processing borrower ID 18 (apple13), requested time: 2024-11-22 09:00:00 to 2024-11-22 11:00:00.
+2025-06-10 08:13:35,902 - INFO - Match found: Borrower apple13 -> Parking lot (3,10) owned by user2.
+2025-06-10 08:13:35,903 - INFO - Processing borrower ID 18 (apple13), requested time: 2024-11-22 13:00:00 to 2024-11-22 15:00:00.
+2025-06-10 08:13:35,904 - INFO - Match found: Borrower apple13 -> Parking lot (3,15) owned by user3.
+2025-06-10 08:13:35,906 - INFO - Processing borrower ID 18 (apple13), requested time: 2024-11-22 17:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:13:35,906 - WARNING - No available parking lot for borrower apple13.
+2025-06-10 08:13:35,906 - INFO - Processing borrower ID 19 (apple14), requested time: 2024-11-22 08:00:00 to 2024-11-22 10:00:00.
+2025-06-10 08:13:35,907 - WARNING - No available parking lot for borrower apple14.
+2025-06-10 08:13:35,907 - INFO - Processing borrower ID 19 (apple14), requested time: 2024-11-22 13:00:00 to 2024-11-22 15:00:00.
+2025-06-10 08:13:35,908 - INFO - Match found: Borrower apple14 -> Parking lot (4,7) owned by user3.
+2025-06-10 08:13:35,910 - INFO - Processing borrower ID 19 (apple14), requested time: 2024-11-22 16:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:13:35,911 - WARNING - No available parking lot for borrower apple14.
+2025-06-10 08:13:35,911 - INFO - Processing borrower ID 20 (apple15), requested time: 2024-11-22 10:00:00 to 2024-11-22 12:00:00.
+2025-06-10 08:13:35,912 - INFO - Match found: Borrower apple15 -> Parking lot (4,3) owned by user2.
+2025-06-10 08:13:35,913 - INFO - Processing borrower ID 20 (apple15), requested time: 2024-11-22 13:00:00 to 2024-11-22 15:00:00.
+2025-06-10 08:13:35,914 - INFO - Match found: Borrower apple15 -> Parking lot (3,14) owned by user3.
+2025-06-10 08:13:35,915 - INFO - Processing borrower ID 20 (apple15), requested time: 2024-11-22 16:00:00 to 2024-11-22 17:00:00.
+2025-06-10 08:13:35,916 - INFO - Match found: Borrower apple15 -> Parking lot (3,8) owned by user2.
+2025-06-10 08:13:35,917 - INFO - Processing borrower ID 21 (apple16), requested time: 2024-11-22 10:00:00 to 2024-11-22 12:00:00.
+2025-06-10 08:13:35,918 - INFO - Match found: Borrower apple16 -> Parking lot (3,3) owned by user2.
+2025-06-10 08:13:35,918 - INFO - Processing borrower ID 21 (apple16), requested time: 2024-11-22 14:00:00 to 2024-11-22 15:00:00.
+2025-06-10 08:13:35,919 - INFO - Match found: Borrower apple16 -> Parking lot (4,8) owned by user3.
+2025-06-10 08:13:35,920 - INFO - Processing borrower ID 21 (apple16), requested time: 2024-11-22 16:00:00 to 2024-11-22 17:00:00.
+2025-06-10 08:13:35,921 - INFO - Match found: Borrower apple16 -> Parking lot (3,15) owned by user3.
+2025-06-10 08:13:35,923 - INFO - Processing borrower ID 22 (apple17), requested time: 2024-11-22 08:00:00 to 2024-11-22 11:00:00.
+2025-06-10 08:13:35,923 - WARNING - No available parking lot for borrower apple17.
+2025-06-10 08:13:35,924 - INFO - Processing borrower ID 22 (apple17), requested time: 2024-11-22 13:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:13:35,924 - WARNING - No available parking lot for borrower apple17.
+2025-06-10 08:13:35,924 - INFO - Processing borrower ID 23 (apple18), requested time: 2024-11-22 08:00:00 to 2024-11-22 10:00:00.
+2025-06-10 08:13:35,925 - WARNING - No available parking lot for borrower apple18.
+2025-06-10 08:13:35,925 - INFO - Processing borrower ID 23 (apple18), requested time: 2024-11-22 11:00:00 to 2024-11-22 12:00:00.
+2025-06-10 08:13:35,926 - INFO - Match found: Borrower apple18 -> Parking lot (4,6) owned by user3.
+2025-06-10 08:13:35,928 - INFO - Processing borrower ID 23 (apple18), requested time: 2024-11-22 14:00:00 to 2024-11-22 16:00:00.
+2025-06-10 08:13:35,929 - INFO - Match found: Borrower apple18 -> Parking lot (3,8) owned by user2.
+2025-06-10 08:13:35,929 - INFO - Processing borrower ID 23 (apple18), requested time: 2024-11-22 17:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:13:35,930 - WARNING - No available parking lot for borrower apple18.
+2025-06-10 08:13:35,930 - INFO - Processing borrower ID 24 (apple19), requested time: 2024-11-22 09:00:00 to 2024-11-22 17:00:00.
+2025-06-10 08:13:35,931 - WARNING - No available parking lot for borrower apple19.
+2025-06-10 08:13:35,931 - INFO - First Fit matching process with interval splitting completed.
+2025-06-10 08:13:35,932 - INFO - Starting Best Fit matching process with interval splitting.
+2025-06-10 08:13:35,933 - INFO - Processing borrower ID 1 (apple), requested time: 2024-11-20 15:00:00 to 2024-11-20 16:00:00.
+2025-06-10 08:13:35,934 - WARNING - No available parking lot for borrower apple.
+2025-06-10 08:13:35,934 - INFO - Processing borrower ID 6 (apple1), requested time: 2024-11-22 09:00:00 to 2024-11-22 11:00:00.
+2025-06-10 08:13:35,936 - INFO - Best match found: Borrower apple1 -> Parking lot (1,12) owned by user1, with unused time: 0.0 hours.
+2025-06-10 08:13:35,936 - INFO - Processing borrower ID 7 (apple2), requested time: 2024-11-22 11:00:00 to 2024-11-22 13:00:00.
+2025-06-10 08:13:35,938 - INFO - Best match found: Borrower apple2 -> Parking lot (1,9) owned by user1, with unused time: 0.0 hours.
+2025-06-10 08:13:35,938 - INFO - Processing borrower ID 8 (apple3), requested time: 2024-11-22 13:00:00 to 2024-11-22 15:00:00.
+2025-06-10 08:13:35,939 - INFO - Best match found: Borrower apple3 -> Parking lot (1,4) owned by user, with unused time: 1.0 hours.
+2025-06-10 08:13:35,941 - INFO - Processing borrower ID 9 (apple4), requested time: 2024-11-22 16:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:13:35,943 - INFO - Best match found: Borrower apple4 -> Parking lot (1,10) owned by user1, with unused time: 0.0 hours.
+2025-06-10 08:13:35,943 - INFO - Processing borrower ID 1 (apple), requested time: 2024-11-22 08:00:00 to 2024-11-22 10:00:00.
+2025-06-10 08:13:35,945 - INFO - Best match found: Borrower apple -> Parking lot (3,9) owned by user2, with unused time: 1.0 hours.
+2025-06-10 08:13:35,946 - INFO - Processing borrower ID 1 (apple), requested time: 2024-11-22 13:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:13:35,948 - INFO - Best match found: Borrower apple -> Parking lot (3,14) owned by user3, with unused time: 0.0 hours.
+2025-06-10 08:13:35,948 - INFO - Processing borrower ID 6 (apple1), requested time: 2024-11-22 14:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:13:35,950 - INFO - Best match found: Borrower apple1 -> Parking lot (3,6) owned by user2, with unused time: 0.0 hours.
+2025-06-10 08:13:35,950 - INFO - Processing borrower ID 7 (apple2), requested time: 2024-11-22 14:00:00 to 2024-11-22 16:00:00.
+2025-06-10 08:13:35,952 - INFO - Best match found: Borrower apple2 -> Parking lot (3,8) owned by user2, with unused time: 1.0 hours.
+2025-06-10 08:13:35,953 - INFO - Processing borrower ID 7 (apple2), requested time: 2024-11-22 17:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:13:35,954 - INFO - Best match found: Borrower apple2 -> Parking lot (4,7) owned by user3, with unused time: 5.0 hours.
+2025-06-10 08:13:35,956 - INFO - Processing borrower ID 8 (apple3), requested time: 2024-11-22 08:00:00 to 2024-11-22 09:00:00.
+2025-06-10 08:13:35,957 - INFO - Best match found: Borrower apple3 -> Parking lot (3,3) owned by user2, with unused time: 3.0 hours.
+2025-06-10 08:13:35,959 - INFO - Processing borrower ID 8 (apple3), requested time: 2024-11-22 11:00:00 to 2024-11-22 12:00:00.
+2025-06-10 08:13:35,961 - INFO - Best match found: Borrower apple3 -> Parking lot (1,2) owned by user1, with unused time: 1.0 hours.
+2025-06-10 08:13:35,962 - INFO - Processing borrower ID 8 (apple3), requested time: 2024-11-22 17:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:13:35,964 - INFO - Best match found: Borrower apple3 -> Parking lot (4,6) owned by user3, with unused time: 7.0 hours.
+2025-06-10 08:13:35,965 - INFO - Processing borrower ID 9 (apple4), requested time: 2024-11-22 08:00:00 to 2024-11-22 09:00:00.
+2025-06-10 08:13:35,966 - INFO - Best match found: Borrower apple4 -> Parking lot (4,10) owned by user3, with unused time: 4.0 hours.
+2025-06-10 08:13:35,968 - INFO - Processing borrower ID 9 (apple4), requested time: 2024-11-22 10:00:00 to 2024-11-22 11:00:00.
+2025-06-10 08:13:35,969 - INFO - Best match found: Borrower apple4 -> Parking lot (3,9) owned by user2, with unused time: 0.0 hours.
+2025-06-10 08:13:35,970 - INFO - Processing borrower ID 9 (apple4), requested time: 2024-11-22 13:00:00 to 2024-11-22 15:00:00.
+2025-06-10 08:13:35,971 - INFO - Best match found: Borrower apple4 -> Parking lot (3,5) owned by user2, with unused time: 2.0 hours.
+2025-06-10 08:13:35,972 - INFO - Processing borrower ID 10 (apple5), requested time: 2024-11-22 08:00:00 to 2024-11-22 13:00:00.
+2025-06-10 08:13:35,974 - INFO - Best match found: Borrower apple5 -> Parking lot (4,4) owned by user3, with unused time: 1.0 hours.
+2025-06-10 08:13:35,975 - INFO - Processing borrower ID 10 (apple5), requested time: 2024-11-22 15:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:13:35,977 - WARNING - No available parking lot for borrower apple5.
+2025-06-10 08:13:35,977 - INFO - Processing borrower ID 11 (apple6), requested time: 2024-11-22 08:00:00 to 2024-11-22 10:00:00.
+2025-06-10 08:13:35,977 - WARNING - No available parking lot for borrower apple6.
+2025-06-10 08:13:35,977 - INFO - Processing borrower ID 11 (apple6), requested time: 2024-11-22 13:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:13:35,978 - WARNING - No available parking lot for borrower apple6.
+2025-06-10 08:13:35,978 - INFO - Processing borrower ID 12 (apple7), requested time: 2024-11-22 08:00:00 to 2024-11-22 11:00:00.
+2025-06-10 08:13:35,979 - WARNING - No available parking lot for borrower apple7.
+2025-06-10 08:13:35,979 - INFO - Processing borrower ID 12 (apple7), requested time: 2024-11-22 12:00:00 to 2024-11-22 13:00:00.
+2025-06-10 08:13:35,981 - INFO - Best match found: Borrower apple7 -> Parking lot (3,5) owned by user2, with unused time: 0.0 hours.
+2025-06-10 08:13:35,981 - INFO - Processing borrower ID 12 (apple7), requested time: 2024-11-22 13:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:13:35,982 - WARNING - No available parking lot for borrower apple7.
+2025-06-10 08:13:35,982 - INFO - Processing borrower ID 13 (apple8), requested time: 2024-11-22 08:00:00 to 2024-11-22 09:00:00.
+2025-06-10 08:13:35,983 - WARNING - No available parking lot for borrower apple8.
+2025-06-10 08:13:35,983 - INFO - Processing borrower ID 13 (apple8), requested time: 2024-11-22 10:00:00 to 2024-11-22 12:00:00.
+2025-06-10 08:13:35,984 - INFO - Best match found: Borrower apple8 -> Parking lot (1,7) owned by user, with unused time: 0.0 hours.
+2025-06-10 08:13:35,985 - INFO - Processing borrower ID 13 (apple8), requested time: 2024-11-22 13:00:00 to 2024-11-22 15:00:00.
+2025-06-10 08:13:35,986 - INFO - Best match found: Borrower apple8 -> Parking lot (3,12) owned by user2, with unused time: 2.0 hours.
+2025-06-10 08:13:35,987 - INFO - Processing borrower ID 13 (apple8), requested time: 2024-11-22 16:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:13:35,988 - WARNING - No available parking lot for borrower apple8.
+2025-06-10 08:13:35,988 - INFO - Processing borrower ID 14 (apple9), requested time: 2024-11-22 09:00:00 to 2024-11-22 10:00:00.
+2025-06-10 08:13:35,990 - INFO - Best match found: Borrower apple9 -> Parking lot (1,6) owned by user, with unused time: 0.0 hours.
+2025-06-10 08:13:35,990 - INFO - Processing borrower ID 14 (apple9), requested time: 2024-11-22 11:00:00 to 2024-11-22 12:00:00.
+2025-06-10 08:13:35,992 - INFO - Best match found: Borrower apple9 -> Parking lot (1,8) owned by user1, with unused time: 1.0 hours.
+2025-06-10 08:13:35,994 - INFO - Processing borrower ID 14 (apple9), requested time: 2024-11-22 13:00:00 to 2024-11-22 14:00:00.
+2025-06-10 08:13:35,995 - INFO - Best match found: Borrower apple9 -> Parking lot (4,4) owned by user3, with unused time: 0.0 hours.
+2025-06-10 08:13:35,996 - INFO - Processing borrower ID 14 (apple9), requested time: 2024-11-22 15:00:00 to 2024-11-22 17:00:00.
+2025-06-10 08:13:35,997 - INFO - Best match found: Borrower apple9 -> Parking lot (1,5) owned by user, with unused time: 0.0 hours.
+2025-06-10 08:13:35,998 - INFO - Processing borrower ID 15 (apple10), requested time: 2024-11-22 08:00:00 to 2024-11-22 10:00:00.
+2025-06-10 08:13:35,998 - WARNING - No available parking lot for borrower apple10.
+2025-06-10 08:13:35,998 - INFO - Processing borrower ID 15 (apple10), requested time: 2024-11-22 11:00:00 to 2024-11-22 12:00:00.
+2025-06-10 08:13:36,000 - INFO - Best match found: Borrower apple10 -> Parking lot (3,2) owned by user, with unused time: 1.0 hours.
+2025-06-10 08:13:36,001 - INFO - Processing borrower ID 15 (apple10), requested time: 2024-11-22 13:00:00 to 2024-11-22 15:00:00.
+2025-06-10 08:13:36,003 - INFO - Best match found: Borrower apple10 -> Parking lot (4,8) owned by user3, with unused time: 3.0 hours.
+2025-06-10 08:13:36,004 - INFO - Processing borrower ID 15 (apple10), requested time: 2024-11-22 17:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:13:36,005 - WARNING - No available parking lot for borrower apple10.
+2025-06-10 08:13:36,005 - INFO - Processing borrower ID 16 (apple11), requested time: 2024-11-22 08:00:00 to 2024-11-22 09:00:00.
+2025-06-10 08:13:36,005 - WARNING - No available parking lot for borrower apple11.
+2025-06-10 08:13:36,006 - INFO - Processing borrower ID 16 (apple11), requested time: 2024-11-22 13:00:00 to 2024-11-22 14:00:00.
+2025-06-10 08:13:36,007 - INFO - Best match found: Borrower apple11 -> Parking lot (3,7) owned by user2, with unused time: 3.0 hours.
+2025-06-10 08:13:36,009 - INFO - Processing borrower ID 16 (apple11), requested time: 2024-11-22 15:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:13:36,010 - WARNING - No available parking lot for borrower apple11.
+2025-06-10 08:13:36,010 - INFO - Processing borrower ID 17 (apple12), requested time: 2024-11-22 09:00:00 to 2024-11-22 11:00:00.
+2025-06-10 08:13:36,012 - INFO - Best match found: Borrower apple12 -> Parking lot (3,4) owned by user2, with unused time: 1.0 hours.
+2025-06-10 08:13:36,013 - INFO - Processing borrower ID 17 (apple12), requested time: 2024-11-22 12:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:13:36,014 - WARNING - No available parking lot for borrower apple12.
+2025-06-10 08:13:36,014 - INFO - Processing borrower ID 18 (apple13), requested time: 2024-11-22 09:00:00 to 2024-11-22 11:00:00.
+2025-06-10 08:13:36,015 - INFO - Best match found: Borrower apple13 -> Parking lot (3,3) owned by user2, with unused time: 1.0 hours.
+2025-06-10 08:13:36,016 - INFO - Processing borrower ID 18 (apple13), requested time: 2024-11-22 13:00:00 to 2024-11-22 15:00:00.
+2025-06-10 08:13:36,018 - INFO - Best match found: Borrower apple13 -> Parking lot (3,13) owned by user3, with unused time: 3.0 hours.
+2025-06-10 08:13:36,019 - INFO - Processing borrower ID 18 (apple13), requested time: 2024-11-22 17:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:13:36,020 - WARNING - No available parking lot for borrower apple13.
+2025-06-10 08:13:36,020 - INFO - Processing borrower ID 19 (apple14), requested time: 2024-11-22 08:00:00 to 2024-11-22 10:00:00.
+2025-06-10 08:13:36,021 - WARNING - No available parking lot for borrower apple14.
+2025-06-10 08:13:36,021 - INFO - Processing borrower ID 19 (apple14), requested time: 2024-11-22 13:00:00 to 2024-11-22 15:00:00.
+2025-06-10 08:13:36,022 - INFO - Best match found: Borrower apple14 -> Parking lot (4,7) owned by user3, with unused time: 3.0 hours.
+2025-06-10 08:13:36,024 - INFO - Processing borrower ID 19 (apple14), requested time: 2024-11-22 16:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:13:36,024 - WARNING - No available parking lot for borrower apple14.
+2025-06-10 08:13:36,024 - INFO - Processing borrower ID 20 (apple15), requested time: 2024-11-22 10:00:00 to 2024-11-22 12:00:00.
+2025-06-10 08:13:36,026 - INFO - Best match found: Borrower apple15 -> Parking lot (3,11) owned by user1, with unused time: 0.0 hours.
+2025-06-10 08:13:36,027 - INFO - Processing borrower ID 20 (apple15), requested time: 2024-11-22 13:00:00 to 2024-11-22 15:00:00.
+2025-06-10 08:13:36,028 - INFO - Best match found: Borrower apple15 -> Parking lot (4,5) owned by user3, with unused time: 4.0 hours.
+2025-06-10 08:13:36,030 - INFO - Processing borrower ID 20 (apple15), requested time: 2024-11-22 16:00:00 to 2024-11-22 17:00:00.
+2025-06-10 08:13:36,031 - INFO - Best match found: Borrower apple15 -> Parking lot (3,8) owned by user2, with unused time: 0.0 hours.
+2025-06-10 08:13:36,032 - INFO - Processing borrower ID 21 (apple16), requested time: 2024-11-22 10:00:00 to 2024-11-22 12:00:00.
+2025-06-10 08:13:36,033 - INFO - Best match found: Borrower apple16 -> Parking lot (4,3) owned by user2, with unused time: 1.0 hours.
+2025-06-10 08:13:36,034 - INFO - Processing borrower ID 21 (apple16), requested time: 2024-11-22 14:00:00 to 2024-11-22 15:00:00.
+2025-06-10 08:13:36,036 - INFO - Best match found: Borrower apple16 -> Parking lot (3,15) owned by user3, with unused time: 5.0 hours.
+2025-06-10 08:13:36,037 - INFO - Processing borrower ID 21 (apple16), requested time: 2024-11-22 16:00:00 to 2024-11-22 17:00:00.
+2025-06-10 08:13:36,039 - INFO - Best match found: Borrower apple16 -> Parking lot (4,8) owned by user3, with unused time: 1.0 hours.
+2025-06-10 08:13:36,040 - INFO - Processing borrower ID 22 (apple17), requested time: 2024-11-22 08:00:00 to 2024-11-22 11:00:00.
+2025-06-10 08:13:36,041 - WARNING - No available parking lot for borrower apple17.
+2025-06-10 08:13:36,041 - INFO - Processing borrower ID 22 (apple17), requested time: 2024-11-22 13:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:13:36,042 - WARNING - No available parking lot for borrower apple17.
+2025-06-10 08:13:36,042 - INFO - Processing borrower ID 23 (apple18), requested time: 2024-11-22 08:00:00 to 2024-11-22 10:00:00.
+2025-06-10 08:13:36,043 - WARNING - No available parking lot for borrower apple18.
+2025-06-10 08:13:36,043 - INFO - Processing borrower ID 23 (apple18), requested time: 2024-11-22 11:00:00 to 2024-11-22 12:00:00.
+2025-06-10 08:13:36,044 - INFO - Best match found: Borrower apple18 -> Parking lot (3,4) owned by user2, with unused time: 0.0 hours.
+2025-06-10 08:13:36,045 - INFO - Processing borrower ID 23 (apple18), requested time: 2024-11-22 14:00:00 to 2024-11-22 16:00:00.
+2025-06-10 08:13:36,047 - INFO - Best match found: Borrower apple18 -> Parking lot (4,6) owned by user3, with unused time: 5.0 hours.
+2025-06-10 08:13:36,048 - INFO - Processing borrower ID 23 (apple18), requested time: 2024-11-22 17:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:13:36,049 - WARNING - No available parking lot for borrower apple18.
+2025-06-10 08:13:36,049 - INFO - Processing borrower ID 24 (apple19), requested time: 2024-11-22 09:00:00 to 2024-11-22 17:00:00.
+2025-06-10 08:13:36,049 - WARNING - No available parking lot for borrower apple19.
+2025-06-10 08:13:36,050 - INFO - Best Fit matching process with interval splitting completed.
+2025-06-10 08:13:36,062 - INFO - 127.0.0.1 - - [10/Jun/2025 08:13:36] "[35m[1mPOST /match HTTP/1.1[0m" 500 -
+2025-06-10 08:13:36,075 - INFO - 127.0.0.1 - - [10/Jun/2025 08:13:36] "[36mGET /match?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-06-10 08:13:36,075 - INFO - 127.0.0.1 - - [10/Jun/2025 08:13:36] "[36mGET /match?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-06-10 08:13:36,090 - INFO - 127.0.0.1 - - [10/Jun/2025 08:13:36] "[36mGET /match?__debugger__=yes&cmd=resource&f=console.png&s=RT3XN5QGEfelP0qydNIV HTTP/1.1[0m" 304 -
+2025-06-10 08:14:20,069 - INFO - Starting First Fit matching process with interval splitting.
+2025-06-10 08:14:20,074 - INFO - Processing borrower ID 1 (apple), requested time: 2024-11-20 15:00:00 to 2024-11-20 16:00:00.
+2025-06-10 08:14:20,075 - WARNING - No available parking lot for borrower apple.
+2025-06-10 08:14:20,075 - INFO - Processing borrower ID 6 (apple1), requested time: 2024-11-22 09:00:00 to 2024-11-22 11:00:00.
+2025-06-10 08:14:20,076 - INFO - Match found: Borrower apple1 -> Parking lot (1,12) owned by user1.
+2025-06-10 08:14:20,076 - INFO - Processing borrower ID 7 (apple2), requested time: 2024-11-22 11:00:00 to 2024-11-22 13:00:00.
+2025-06-10 08:14:20,077 - INFO - Match found: Borrower apple2 -> Parking lot (1,9) owned by user1.
+2025-06-10 08:14:20,077 - INFO - Processing borrower ID 8 (apple3), requested time: 2024-11-22 13:00:00 to 2024-11-22 15:00:00.
+2025-06-10 08:14:20,078 - INFO - Match found: Borrower apple3 -> Parking lot (1,4) owned by user.
+2025-06-10 08:14:20,079 - INFO - Processing borrower ID 9 (apple4), requested time: 2024-11-22 16:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:14:20,080 - INFO - Match found: Borrower apple4 -> Parking lot (1,10) owned by user1.
+2025-06-10 08:14:20,081 - INFO - Processing borrower ID 1 (apple), requested time: 2024-11-22 08:00:00 to 2024-11-22 10:00:00.
+2025-06-10 08:14:20,082 - INFO - Match found: Borrower apple -> Parking lot (3,3) owned by user2.
+2025-06-10 08:14:20,083 - INFO - Processing borrower ID 1 (apple), requested time: 2024-11-22 13:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:14:20,084 - INFO - Match found: Borrower apple -> Parking lot (4,6) owned by user3.
+2025-06-10 08:14:20,085 - INFO - Processing borrower ID 6 (apple1), requested time: 2024-11-22 14:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:14:20,086 - INFO - Match found: Borrower apple1 -> Parking lot (3,6) owned by user2.
+2025-06-10 08:14:20,086 - INFO - Processing borrower ID 7 (apple2), requested time: 2024-11-22 14:00:00 to 2024-11-22 16:00:00.
+2025-06-10 08:14:20,087 - INFO - Match found: Borrower apple2 -> Parking lot (3,5) owned by user2.
+2025-06-10 08:14:20,088 - INFO - Processing borrower ID 7 (apple2), requested time: 2024-11-22 17:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:14:20,089 - INFO - Match found: Borrower apple2 -> Parking lot (4,7) owned by user3.
+2025-06-10 08:14:20,090 - INFO - Processing borrower ID 8 (apple3), requested time: 2024-11-22 08:00:00 to 2024-11-22 09:00:00.
+2025-06-10 08:14:20,091 - INFO - Match found: Borrower apple3 -> Parking lot (3,9) owned by user2.
+2025-06-10 08:14:20,093 - INFO - Processing borrower ID 8 (apple3), requested time: 2024-11-22 11:00:00 to 2024-11-22 12:00:00.
+2025-06-10 08:14:20,094 - INFO - Match found: Borrower apple3 -> Parking lot (1,2) owned by user1.
+2025-06-10 08:14:20,095 - INFO - Processing borrower ID 8 (apple3), requested time: 2024-11-22 17:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:14:20,096 - INFO - Match found: Borrower apple3 -> Parking lot (3,14) owned by user3.
+2025-06-10 08:14:20,097 - INFO - Processing borrower ID 9 (apple4), requested time: 2024-11-22 08:00:00 to 2024-11-22 09:00:00.
+2025-06-10 08:14:20,098 - INFO - Match found: Borrower apple4 -> Parking lot (4,4) owned by user3.
+2025-06-10 08:14:20,099 - INFO - Processing borrower ID 9 (apple4), requested time: 2024-11-22 10:00:00 to 2024-11-22 11:00:00.
+2025-06-10 08:14:20,100 - INFO - Match found: Borrower apple4 -> Parking lot (1,7) owned by user.
+2025-06-10 08:14:20,101 - INFO - Processing borrower ID 9 (apple4), requested time: 2024-11-22 13:00:00 to 2024-11-22 15:00:00.
+2025-06-10 08:14:20,102 - INFO - Match found: Borrower apple4 -> Parking lot (3,12) owned by user2.
+2025-06-10 08:14:20,103 - INFO - Processing borrower ID 10 (apple5), requested time: 2024-11-22 08:00:00 to 2024-11-22 13:00:00.
+2025-06-10 08:14:20,104 - INFO - Match found: Borrower apple5 -> Parking lot (4,10) owned by user3.
+2025-06-10 08:14:20,105 - INFO - Processing borrower ID 10 (apple5), requested time: 2024-11-22 15:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:14:20,105 - WARNING - No available parking lot for borrower apple5.
+2025-06-10 08:14:20,106 - INFO - Processing borrower ID 11 (apple6), requested time: 2024-11-22 08:00:00 to 2024-11-22 10:00:00.
+2025-06-10 08:14:20,106 - WARNING - No available parking lot for borrower apple6.
+2025-06-10 08:14:20,106 - INFO - Processing borrower ID 11 (apple6), requested time: 2024-11-22 13:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:14:20,107 - WARNING - No available parking lot for borrower apple6.
+2025-06-10 08:14:20,107 - INFO - Processing borrower ID 12 (apple7), requested time: 2024-11-22 08:00:00 to 2024-11-22 11:00:00.
+2025-06-10 08:14:20,108 - WARNING - No available parking lot for borrower apple7.
+2025-06-10 08:14:20,108 - INFO - Processing borrower ID 12 (apple7), requested time: 2024-11-22 12:00:00 to 2024-11-22 13:00:00.
+2025-06-10 08:14:20,109 - INFO - Match found: Borrower apple7 -> Parking lot (3,7) owned by user2.
+2025-06-10 08:14:20,110 - INFO - Processing borrower ID 12 (apple7), requested time: 2024-11-22 13:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:14:20,111 - WARNING - No available parking lot for borrower apple7.
+2025-06-10 08:14:20,111 - INFO - Processing borrower ID 13 (apple8), requested time: 2024-11-22 08:00:00 to 2024-11-22 09:00:00.
+2025-06-10 08:14:20,112 - WARNING - No available parking lot for borrower apple8.
+2025-06-10 08:14:20,112 - INFO - Processing borrower ID 13 (apple8), requested time: 2024-11-22 10:00:00 to 2024-11-22 12:00:00.
+2025-06-10 08:14:20,112 - INFO - Match found: Borrower apple8 -> Parking lot (1,8) owned by user1.
+2025-06-10 08:14:20,113 - INFO - Processing borrower ID 13 (apple8), requested time: 2024-11-22 13:00:00 to 2024-11-22 15:00:00.
+2025-06-10 08:14:20,114 - INFO - Match found: Borrower apple8 -> Parking lot (4,5) owned by user3.
+2025-06-10 08:14:20,115 - INFO - Processing borrower ID 13 (apple8), requested time: 2024-11-22 16:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:14:20,116 - WARNING - No available parking lot for borrower apple8.
+2025-06-10 08:14:20,116 - INFO - Processing borrower ID 14 (apple9), requested time: 2024-11-22 09:00:00 to 2024-11-22 10:00:00.
+2025-06-10 08:14:20,116 - INFO - Match found: Borrower apple9 -> Parking lot (1,6) owned by user.
+2025-06-10 08:14:20,117 - INFO - Processing borrower ID 14 (apple9), requested time: 2024-11-22 11:00:00 to 2024-11-22 12:00:00.
+2025-06-10 08:14:20,118 - INFO - Match found: Borrower apple9 -> Parking lot (3,2) owned by user.
+2025-06-10 08:14:20,119 - INFO - Processing borrower ID 14 (apple9), requested time: 2024-11-22 13:00:00 to 2024-11-22 14:00:00.
+2025-06-10 08:14:20,120 - INFO - Match found: Borrower apple9 -> Parking lot (4,8) owned by user3.
+2025-06-10 08:14:20,121 - INFO - Processing borrower ID 14 (apple9), requested time: 2024-11-22 15:00:00 to 2024-11-22 17:00:00.
+2025-06-10 08:14:20,122 - INFO - Match found: Borrower apple9 -> Parking lot (1,5) owned by user.
+2025-06-10 08:14:20,123 - INFO - Processing borrower ID 15 (apple10), requested time: 2024-11-22 08:00:00 to 2024-11-22 10:00:00.
+2025-06-10 08:14:20,123 - WARNING - No available parking lot for borrower apple10.
+2025-06-10 08:14:20,123 - INFO - Processing borrower ID 15 (apple10), requested time: 2024-11-22 11:00:00 to 2024-11-22 12:00:00.
+2025-06-10 08:14:20,124 - INFO - Match found: Borrower apple10 -> Parking lot (3,11) owned by user1.
+2025-06-10 08:14:20,126 - INFO - Processing borrower ID 15 (apple10), requested time: 2024-11-22 13:00:00 to 2024-11-22 15:00:00.
+2025-06-10 08:14:20,127 - INFO - Match found: Borrower apple10 -> Parking lot (3,13) owned by user3.
+2025-06-10 08:14:20,128 - INFO - Processing borrower ID 15 (apple10), requested time: 2024-11-22 17:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:14:20,129 - WARNING - No available parking lot for borrower apple10.
+2025-06-10 08:14:20,129 - INFO - Processing borrower ID 16 (apple11), requested time: 2024-11-22 08:00:00 to 2024-11-22 09:00:00.
+2025-06-10 08:14:20,130 - WARNING - No available parking lot for borrower apple11.
+2025-06-10 08:14:20,130 - INFO - Processing borrower ID 16 (apple11), requested time: 2024-11-22 13:00:00 to 2024-11-22 14:00:00.
+2025-06-10 08:14:20,131 - INFO - Match found: Borrower apple11 -> Parking lot (4,9) owned by user3.
+2025-06-10 08:14:20,132 - INFO - Processing borrower ID 16 (apple11), requested time: 2024-11-22 15:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:14:20,133 - WARNING - No available parking lot for borrower apple11.
+2025-06-10 08:14:20,133 - INFO - Processing borrower ID 17 (apple12), requested time: 2024-11-22 09:00:00 to 2024-11-22 11:00:00.
+2025-06-10 08:14:20,133 - INFO - Match found: Borrower apple12 -> Parking lot (3,4) owned by user2.
+2025-06-10 08:14:20,135 - INFO - Processing borrower ID 17 (apple12), requested time: 2024-11-22 12:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:14:20,135 - WARNING - No available parking lot for borrower apple12.
+2025-06-10 08:14:20,135 - INFO - Processing borrower ID 18 (apple13), requested time: 2024-11-22 09:00:00 to 2024-11-22 11:00:00.
+2025-06-10 08:14:20,136 - INFO - Match found: Borrower apple13 -> Parking lot (3,10) owned by user2.
+2025-06-10 08:14:20,137 - INFO - Processing borrower ID 18 (apple13), requested time: 2024-11-22 13:00:00 to 2024-11-22 15:00:00.
+2025-06-10 08:14:20,138 - INFO - Match found: Borrower apple13 -> Parking lot (3,15) owned by user3.
+2025-06-10 08:14:20,139 - INFO - Processing borrower ID 18 (apple13), requested time: 2024-11-22 17:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:14:20,140 - WARNING - No available parking lot for borrower apple13.
+2025-06-10 08:14:20,140 - INFO - Processing borrower ID 19 (apple14), requested time: 2024-11-22 08:00:00 to 2024-11-22 10:00:00.
+2025-06-10 08:14:20,141 - WARNING - No available parking lot for borrower apple14.
+2025-06-10 08:14:20,141 - INFO - Processing borrower ID 19 (apple14), requested time: 2024-11-22 13:00:00 to 2024-11-22 15:00:00.
+2025-06-10 08:14:20,142 - INFO - Match found: Borrower apple14 -> Parking lot (4,7) owned by user3.
+2025-06-10 08:14:20,144 - INFO - Processing borrower ID 19 (apple14), requested time: 2024-11-22 16:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:14:20,144 - WARNING - No available parking lot for borrower apple14.
+2025-06-10 08:14:20,145 - INFO - Processing borrower ID 20 (apple15), requested time: 2024-11-22 10:00:00 to 2024-11-22 12:00:00.
+2025-06-10 08:14:20,145 - INFO - Match found: Borrower apple15 -> Parking lot (4,3) owned by user2.
+2025-06-10 08:14:20,147 - INFO - Processing borrower ID 20 (apple15), requested time: 2024-11-22 13:00:00 to 2024-11-22 15:00:00.
+2025-06-10 08:14:20,147 - INFO - Match found: Borrower apple15 -> Parking lot (3,14) owned by user3.
+2025-06-10 08:14:20,149 - INFO - Processing borrower ID 20 (apple15), requested time: 2024-11-22 16:00:00 to 2024-11-22 17:00:00.
+2025-06-10 08:14:20,149 - INFO - Match found: Borrower apple15 -> Parking lot (3,8) owned by user2.
+2025-06-10 08:14:20,151 - INFO - Processing borrower ID 21 (apple16), requested time: 2024-11-22 10:00:00 to 2024-11-22 12:00:00.
+2025-06-10 08:14:20,151 - INFO - Match found: Borrower apple16 -> Parking lot (3,3) owned by user2.
+2025-06-10 08:14:20,152 - INFO - Processing borrower ID 21 (apple16), requested time: 2024-11-22 14:00:00 to 2024-11-22 15:00:00.
+2025-06-10 08:14:20,152 - INFO - Match found: Borrower apple16 -> Parking lot (4,8) owned by user3.
+2025-06-10 08:14:20,154 - INFO - Processing borrower ID 21 (apple16), requested time: 2024-11-22 16:00:00 to 2024-11-22 17:00:00.
+2025-06-10 08:14:20,154 - INFO - Match found: Borrower apple16 -> Parking lot (3,15) owned by user3.
+2025-06-10 08:14:20,156 - INFO - Processing borrower ID 22 (apple17), requested time: 2024-11-22 08:00:00 to 2024-11-22 11:00:00.
+2025-06-10 08:14:20,156 - WARNING - No available parking lot for borrower apple17.
+2025-06-10 08:14:20,157 - INFO - Processing borrower ID 22 (apple17), requested time: 2024-11-22 13:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:14:20,157 - WARNING - No available parking lot for borrower apple17.
+2025-06-10 08:14:20,158 - INFO - Processing borrower ID 23 (apple18), requested time: 2024-11-22 08:00:00 to 2024-11-22 10:00:00.
+2025-06-10 08:14:20,158 - WARNING - No available parking lot for borrower apple18.
+2025-06-10 08:14:20,158 - INFO - Processing borrower ID 23 (apple18), requested time: 2024-11-22 11:00:00 to 2024-11-22 12:00:00.
+2025-06-10 08:14:20,159 - INFO - Match found: Borrower apple18 -> Parking lot (4,6) owned by user3.
+2025-06-10 08:14:20,161 - INFO - Processing borrower ID 23 (apple18), requested time: 2024-11-22 14:00:00 to 2024-11-22 16:00:00.
+2025-06-10 08:14:20,162 - INFO - Match found: Borrower apple18 -> Parking lot (3,8) owned by user2.
+2025-06-10 08:14:20,162 - INFO - Processing borrower ID 23 (apple18), requested time: 2024-11-22 17:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:14:20,163 - WARNING - No available parking lot for borrower apple18.
+2025-06-10 08:14:20,163 - INFO - Processing borrower ID 24 (apple19), requested time: 2024-11-22 09:00:00 to 2024-11-22 17:00:00.
+2025-06-10 08:14:20,163 - WARNING - No available parking lot for borrower apple19.
+2025-06-10 08:14:20,163 - INFO - First Fit matching process with interval splitting completed.
+2025-06-10 08:14:20,164 - INFO - Starting Best Fit matching process with interval splitting.
+2025-06-10 08:14:20,165 - INFO - Processing borrower ID 1 (apple), requested time: 2024-11-20 15:00:00 to 2024-11-20 16:00:00.
+2025-06-10 08:14:20,166 - WARNING - No available parking lot for borrower apple.
+2025-06-10 08:14:20,166 - INFO - Processing borrower ID 6 (apple1), requested time: 2024-11-22 09:00:00 to 2024-11-22 11:00:00.
+2025-06-10 08:14:20,168 - INFO - Best match found: Borrower apple1 -> Parking lot (1,12) owned by user1, with unused time: 0.0 hours.
+2025-06-10 08:14:20,168 - INFO - Processing borrower ID 7 (apple2), requested time: 2024-11-22 11:00:00 to 2024-11-22 13:00:00.
+2025-06-10 08:14:20,169 - INFO - Best match found: Borrower apple2 -> Parking lot (1,9) owned by user1, with unused time: 0.0 hours.
+2025-06-10 08:14:20,170 - INFO - Processing borrower ID 8 (apple3), requested time: 2024-11-22 13:00:00 to 2024-11-22 15:00:00.
+2025-06-10 08:14:20,171 - INFO - Best match found: Borrower apple3 -> Parking lot (1,4) owned by user, with unused time: 1.0 hours.
+2025-06-10 08:14:20,172 - INFO - Processing borrower ID 9 (apple4), requested time: 2024-11-22 16:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:14:20,174 - INFO - Best match found: Borrower apple4 -> Parking lot (1,10) owned by user1, with unused time: 0.0 hours.
+2025-06-10 08:14:20,175 - INFO - Processing borrower ID 1 (apple), requested time: 2024-11-22 08:00:00 to 2024-11-22 10:00:00.
+2025-06-10 08:14:20,176 - INFO - Best match found: Borrower apple -> Parking lot (3,9) owned by user2, with unused time: 1.0 hours.
+2025-06-10 08:14:20,178 - INFO - Processing borrower ID 1 (apple), requested time: 2024-11-22 13:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:14:20,179 - INFO - Best match found: Borrower apple -> Parking lot (3,14) owned by user3, with unused time: 0.0 hours.
+2025-06-10 08:14:20,180 - INFO - Processing borrower ID 6 (apple1), requested time: 2024-11-22 14:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:14:20,181 - INFO - Best match found: Borrower apple1 -> Parking lot (3,6) owned by user2, with unused time: 0.0 hours.
+2025-06-10 08:14:20,181 - INFO - Processing borrower ID 7 (apple2), requested time: 2024-11-22 14:00:00 to 2024-11-22 16:00:00.
+2025-06-10 08:14:20,183 - INFO - Best match found: Borrower apple2 -> Parking lot (3,8) owned by user2, with unused time: 1.0 hours.
+2025-06-10 08:14:20,184 - INFO - Processing borrower ID 7 (apple2), requested time: 2024-11-22 17:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:14:20,185 - INFO - Best match found: Borrower apple2 -> Parking lot (4,7) owned by user3, with unused time: 5.0 hours.
+2025-06-10 08:14:20,187 - INFO - Processing borrower ID 8 (apple3), requested time: 2024-11-22 08:00:00 to 2024-11-22 09:00:00.
+2025-06-10 08:14:20,188 - INFO - Best match found: Borrower apple3 -> Parking lot (3,3) owned by user2, with unused time: 3.0 hours.
+2025-06-10 08:14:20,189 - INFO - Processing borrower ID 8 (apple3), requested time: 2024-11-22 11:00:00 to 2024-11-22 12:00:00.
+2025-06-10 08:14:20,191 - INFO - Best match found: Borrower apple3 -> Parking lot (1,2) owned by user1, with unused time: 1.0 hours.
+2025-06-10 08:14:20,193 - INFO - Processing borrower ID 8 (apple3), requested time: 2024-11-22 17:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:14:20,194 - INFO - Best match found: Borrower apple3 -> Parking lot (4,6) owned by user3, with unused time: 7.0 hours.
+2025-06-10 08:14:20,195 - INFO - Processing borrower ID 9 (apple4), requested time: 2024-11-22 08:00:00 to 2024-11-22 09:00:00.
+2025-06-10 08:14:20,197 - INFO - Best match found: Borrower apple4 -> Parking lot (4,10) owned by user3, with unused time: 4.0 hours.
+2025-06-10 08:14:20,198 - INFO - Processing borrower ID 9 (apple4), requested time: 2024-11-22 10:00:00 to 2024-11-22 11:00:00.
+2025-06-10 08:14:20,199 - INFO - Best match found: Borrower apple4 -> Parking lot (3,9) owned by user2, with unused time: 0.0 hours.
+2025-06-10 08:14:20,200 - INFO - Processing borrower ID 9 (apple4), requested time: 2024-11-22 13:00:00 to 2024-11-22 15:00:00.
+2025-06-10 08:14:20,201 - INFO - Best match found: Borrower apple4 -> Parking lot (3,5) owned by user2, with unused time: 2.0 hours.
+2025-06-10 08:14:20,202 - INFO - Processing borrower ID 10 (apple5), requested time: 2024-11-22 08:00:00 to 2024-11-22 13:00:00.
+2025-06-10 08:14:20,204 - INFO - Best match found: Borrower apple5 -> Parking lot (4,4) owned by user3, with unused time: 1.0 hours.
+2025-06-10 08:14:20,205 - INFO - Processing borrower ID 10 (apple5), requested time: 2024-11-22 15:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:14:20,206 - WARNING - No available parking lot for borrower apple5.
+2025-06-10 08:14:20,206 - INFO - Processing borrower ID 11 (apple6), requested time: 2024-11-22 08:00:00 to 2024-11-22 10:00:00.
+2025-06-10 08:14:20,207 - WARNING - No available parking lot for borrower apple6.
+2025-06-10 08:14:20,207 - INFO - Processing borrower ID 11 (apple6), requested time: 2024-11-22 13:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:14:20,208 - WARNING - No available parking lot for borrower apple6.
+2025-06-10 08:14:20,208 - INFO - Processing borrower ID 12 (apple7), requested time: 2024-11-22 08:00:00 to 2024-11-22 11:00:00.
+2025-06-10 08:14:20,208 - WARNING - No available parking lot for borrower apple7.
+2025-06-10 08:14:20,209 - INFO - Processing borrower ID 12 (apple7), requested time: 2024-11-22 12:00:00 to 2024-11-22 13:00:00.
+2025-06-10 08:14:20,210 - INFO - Best match found: Borrower apple7 -> Parking lot (3,5) owned by user2, with unused time: 0.0 hours.
+2025-06-10 08:14:20,210 - INFO - Processing borrower ID 12 (apple7), requested time: 2024-11-22 13:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:14:20,211 - WARNING - No available parking lot for borrower apple7.
+2025-06-10 08:14:20,211 - INFO - Processing borrower ID 13 (apple8), requested time: 2024-11-22 08:00:00 to 2024-11-22 09:00:00.
+2025-06-10 08:14:20,212 - WARNING - No available parking lot for borrower apple8.
+2025-06-10 08:14:20,212 - INFO - Processing borrower ID 13 (apple8), requested time: 2024-11-22 10:00:00 to 2024-11-22 12:00:00.
+2025-06-10 08:14:20,213 - INFO - Best match found: Borrower apple8 -> Parking lot (1,7) owned by user, with unused time: 0.0 hours.
+2025-06-10 08:14:20,214 - INFO - Processing borrower ID 13 (apple8), requested time: 2024-11-22 13:00:00 to 2024-11-22 15:00:00.
+2025-06-10 08:14:20,215 - INFO - Best match found: Borrower apple8 -> Parking lot (3,12) owned by user2, with unused time: 2.0 hours.
+2025-06-10 08:14:20,216 - INFO - Processing borrower ID 13 (apple8), requested time: 2024-11-22 16:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:14:20,217 - WARNING - No available parking lot for borrower apple8.
+2025-06-10 08:14:20,217 - INFO - Processing borrower ID 14 (apple9), requested time: 2024-11-22 09:00:00 to 2024-11-22 10:00:00.
+2025-06-10 08:14:20,218 - INFO - Best match found: Borrower apple9 -> Parking lot (1,6) owned by user, with unused time: 0.0 hours.
+2025-06-10 08:14:20,219 - INFO - Processing borrower ID 14 (apple9), requested time: 2024-11-22 11:00:00 to 2024-11-22 12:00:00.
+2025-06-10 08:14:20,220 - INFO - Best match found: Borrower apple9 -> Parking lot (1,8) owned by user1, with unused time: 1.0 hours.
+2025-06-10 08:14:20,221 - INFO - Processing borrower ID 14 (apple9), requested time: 2024-11-22 13:00:00 to 2024-11-22 14:00:00.
+2025-06-10 08:14:20,223 - INFO - Best match found: Borrower apple9 -> Parking lot (4,4) owned by user3, with unused time: 0.0 hours.
+2025-06-10 08:14:20,223 - INFO - Processing borrower ID 14 (apple9), requested time: 2024-11-22 15:00:00 to 2024-11-22 17:00:00.
+2025-06-10 08:14:20,225 - INFO - Best match found: Borrower apple9 -> Parking lot (1,5) owned by user, with unused time: 0.0 hours.
+2025-06-10 08:14:20,225 - INFO - Processing borrower ID 15 (apple10), requested time: 2024-11-22 08:00:00 to 2024-11-22 10:00:00.
+2025-06-10 08:14:20,226 - WARNING - No available parking lot for borrower apple10.
+2025-06-10 08:14:20,226 - INFO - Processing borrower ID 15 (apple10), requested time: 2024-11-22 11:00:00 to 2024-11-22 12:00:00.
+2025-06-10 08:14:20,227 - INFO - Best match found: Borrower apple10 -> Parking lot (3,2) owned by user, with unused time: 1.0 hours.
+2025-06-10 08:14:20,229 - INFO - Processing borrower ID 15 (apple10), requested time: 2024-11-22 13:00:00 to 2024-11-22 15:00:00.
+2025-06-10 08:14:20,230 - INFO - Best match found: Borrower apple10 -> Parking lot (4,8) owned by user3, with unused time: 3.0 hours.
+2025-06-10 08:14:20,232 - INFO - Processing borrower ID 15 (apple10), requested time: 2024-11-22 17:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:14:20,232 - WARNING - No available parking lot for borrower apple10.
+2025-06-10 08:14:20,232 - INFO - Processing borrower ID 16 (apple11), requested time: 2024-11-22 08:00:00 to 2024-11-22 09:00:00.
+2025-06-10 08:14:20,233 - WARNING - No available parking lot for borrower apple11.
+2025-06-10 08:14:20,233 - INFO - Processing borrower ID 16 (apple11), requested time: 2024-11-22 13:00:00 to 2024-11-22 14:00:00.
+2025-06-10 08:14:20,235 - INFO - Best match found: Borrower apple11 -> Parking lot (3,7) owned by user2, with unused time: 3.0 hours.
+2025-06-10 08:14:20,236 - INFO - Processing borrower ID 16 (apple11), requested time: 2024-11-22 15:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:14:20,237 - WARNING - No available parking lot for borrower apple11.
+2025-06-10 08:14:20,237 - INFO - Processing borrower ID 17 (apple12), requested time: 2024-11-22 09:00:00 to 2024-11-22 11:00:00.
+2025-06-10 08:14:20,238 - INFO - Best match found: Borrower apple12 -> Parking lot (3,4) owned by user2, with unused time: 1.0 hours.
+2025-06-10 08:14:20,239 - INFO - Processing borrower ID 17 (apple12), requested time: 2024-11-22 12:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:14:20,240 - WARNING - No available parking lot for borrower apple12.
+2025-06-10 08:14:20,240 - INFO - Processing borrower ID 18 (apple13), requested time: 2024-11-22 09:00:00 to 2024-11-22 11:00:00.
+2025-06-10 08:14:20,242 - INFO - Best match found: Borrower apple13 -> Parking lot (3,3) owned by user2, with unused time: 1.0 hours.
+2025-06-10 08:14:20,243 - INFO - Processing borrower ID 18 (apple13), requested time: 2024-11-22 13:00:00 to 2024-11-22 15:00:00.
+2025-06-10 08:14:20,245 - INFO - Best match found: Borrower apple13 -> Parking lot (3,13) owned by user3, with unused time: 3.0 hours.
+2025-06-10 08:14:20,246 - INFO - Processing borrower ID 18 (apple13), requested time: 2024-11-22 17:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:14:20,247 - WARNING - No available parking lot for borrower apple13.
+2025-06-10 08:14:20,247 - INFO - Processing borrower ID 19 (apple14), requested time: 2024-11-22 08:00:00 to 2024-11-22 10:00:00.
+2025-06-10 08:14:20,248 - WARNING - No available parking lot for borrower apple14.
+2025-06-10 08:14:20,248 - INFO - Processing borrower ID 19 (apple14), requested time: 2024-11-22 13:00:00 to 2024-11-22 15:00:00.
+2025-06-10 08:14:20,249 - INFO - Best match found: Borrower apple14 -> Parking lot (4,7) owned by user3, with unused time: 3.0 hours.
+2025-06-10 08:14:20,251 - INFO - Processing borrower ID 19 (apple14), requested time: 2024-11-22 16:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:14:20,251 - WARNING - No available parking lot for borrower apple14.
+2025-06-10 08:14:20,251 - INFO - Processing borrower ID 20 (apple15), requested time: 2024-11-22 10:00:00 to 2024-11-22 12:00:00.
+2025-06-10 08:14:20,253 - INFO - Best match found: Borrower apple15 -> Parking lot (3,11) owned by user1, with unused time: 0.0 hours.
+2025-06-10 08:14:20,253 - INFO - Processing borrower ID 20 (apple15), requested time: 2024-11-22 13:00:00 to 2024-11-22 15:00:00.
+2025-06-10 08:14:20,255 - INFO - Best match found: Borrower apple15 -> Parking lot (4,5) owned by user3, with unused time: 4.0 hours.
+2025-06-10 08:14:20,256 - INFO - Processing borrower ID 20 (apple15), requested time: 2024-11-22 16:00:00 to 2024-11-22 17:00:00.
+2025-06-10 08:14:20,258 - INFO - Best match found: Borrower apple15 -> Parking lot (3,8) owned by user2, with unused time: 0.0 hours.
+2025-06-10 08:14:20,258 - INFO - Processing borrower ID 21 (apple16), requested time: 2024-11-22 10:00:00 to 2024-11-22 12:00:00.
+2025-06-10 08:14:20,260 - INFO - Best match found: Borrower apple16 -> Parking lot (4,3) owned by user2, with unused time: 1.0 hours.
+2025-06-10 08:14:20,261 - INFO - Processing borrower ID 21 (apple16), requested time: 2024-11-22 14:00:00 to 2024-11-22 15:00:00.
+2025-06-10 08:14:20,262 - INFO - Best match found: Borrower apple16 -> Parking lot (3,15) owned by user3, with unused time: 5.0 hours.
+2025-06-10 08:14:20,264 - INFO - Processing borrower ID 21 (apple16), requested time: 2024-11-22 16:00:00 to 2024-11-22 17:00:00.
+2025-06-10 08:14:20,265 - INFO - Best match found: Borrower apple16 -> Parking lot (4,8) owned by user3, with unused time: 1.0 hours.
+2025-06-10 08:14:20,266 - INFO - Processing borrower ID 22 (apple17), requested time: 2024-11-22 08:00:00 to 2024-11-22 11:00:00.
+2025-06-10 08:14:20,267 - WARNING - No available parking lot for borrower apple17.
+2025-06-10 08:14:20,267 - INFO - Processing borrower ID 22 (apple17), requested time: 2024-11-22 13:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:14:20,268 - WARNING - No available parking lot for borrower apple17.
+2025-06-10 08:14:20,268 - INFO - Processing borrower ID 23 (apple18), requested time: 2024-11-22 08:00:00 to 2024-11-22 10:00:00.
+2025-06-10 08:14:20,269 - WARNING - No available parking lot for borrower apple18.
+2025-06-10 08:14:20,269 - INFO - Processing borrower ID 23 (apple18), requested time: 2024-11-22 11:00:00 to 2024-11-22 12:00:00.
+2025-06-10 08:14:20,270 - INFO - Best match found: Borrower apple18 -> Parking lot (3,4) owned by user2, with unused time: 0.0 hours.
+2025-06-10 08:14:20,271 - INFO - Processing borrower ID 23 (apple18), requested time: 2024-11-22 14:00:00 to 2024-11-22 16:00:00.
+2025-06-10 08:14:20,272 - INFO - Best match found: Borrower apple18 -> Parking lot (4,6) owned by user3, with unused time: 5.0 hours.
+2025-06-10 08:14:20,273 - INFO - Processing borrower ID 23 (apple18), requested time: 2024-11-22 17:00:00 to 2024-11-22 18:00:00.
+2025-06-10 08:14:20,274 - WARNING - No available parking lot for borrower apple18.
+2025-06-10 08:14:20,274 - INFO - Processing borrower ID 24 (apple19), requested time: 2024-11-22 09:00:00 to 2024-11-22 17:00:00.
+2025-06-10 08:14:20,275 - WARNING - No available parking lot for borrower apple19.
+2025-06-10 08:14:20,275 - INFO - Best Fit matching process with interval splitting completed.
+2025-06-10 08:14:20,351 - INFO - 127.0.0.1 - - [10/Jun/2025 08:14:20] "POST /match HTTP/1.1" 200 -
+2025-06-10 08:14:34,787 - INFO - 127.0.0.1 - - [10/Jun/2025 08:14:34] "GET /home HTTP/1.1" 200 -
+2025-06-10 08:14:35,680 - INFO - 127.0.0.1 - - [10/Jun/2025 08:14:35] "GET /registration_out HTTP/1.1" 200 -
+2025-06-10 08:14:49,876 - INFO - 127.0.0.1 - - [10/Jun/2025 08:14:49] "GET /registration/edit/34 HTTP/1.1" 200 -
+2025-06-10 08:15:14,935 - INFO - 127.0.0.1 - - [10/Jun/2025 08:15:14] "[32mPOST /registration/edit/34 HTTP/1.1[0m" 302 -
+2025-06-10 08:15:14,946 - INFO - 127.0.0.1 - - [10/Jun/2025 08:15:14] "GET /registration_out HTTP/1.1" 200 -
+2025-06-10 08:15:21,534 - INFO - 127.0.0.1 - - [10/Jun/2025 08:15:21] "GET /home HTTP/1.1" 200 -
+2025-06-10 08:15:22,364 - INFO - 127.0.0.1 - - [10/Jun/2025 08:15:22] "GET /registration_out HTTP/1.1" 200 -
+2025-06-10 08:15:23,037 - INFO - 127.0.0.1 - - [10/Jun/2025 08:15:23] "GET /show_parking_lot_area HTTP/1.1" 200 -
+2025-06-10 08:15:30,075 - INFO - 127.0.0.1 - - [10/Jun/2025 08:15:30] "GET /registration_out HTTP/1.1" 200 -
+2025-06-10 08:15:38,602 - INFO - 127.0.0.1 - - [10/Jun/2025 08:15:38] "GET /registration/edit/34 HTTP/1.1" 200 -
+2025-06-10 08:16:07,165 - INFO - 127.0.0.1 - - [10/Jun/2025 08:16:07] "[32mPOST /registration/edit/34 HTTP/1.1[0m" 302 -
+2025-06-10 08:16:07,183 - INFO - 127.0.0.1 - - [10/Jun/2025 08:16:07] "GET /registration_out HTTP/1.1" 200 -
+2025-06-10 08:16:23,198 - INFO - 127.0.0.1 - - [10/Jun/2025 08:16:23] "GET /show_parking_lot_area HTTP/1.1" 200 -

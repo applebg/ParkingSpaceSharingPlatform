@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block content %}
+<h1 class="mt-4">Edit Demand Registration</h1>
+<form id="editDemandForm" method="POST">
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" class="form-control" value="{{ demand_registration.name }}" readonly>
+    </div>
+    <div class="form-group">
+        <label for="start_time">Start Time:</label>
+        <input type="datetime-local" id="start_time" name="start_time" class="form-control" 
+               value="{{ demand_registration.start_time.isoformat() }}" required>
+    </div>
+    <div class="form-group">
+        <label for="end_time">End Time:</label>
+        <input type="datetime-local" id="end_time" name="end_time" class="form-control" 
+               value="{{ demand_registration.end_time.isoformat() }}" required>
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Save Changes</button>
+    <a href="{{ url_for('query_demand') }}" class="btn btn-secondary mt-3">Cancel</a>
+</form>
+<!-- The script is for check if Start Time is earlier than End Time-->
+<script>
+    document.getElementById("editDemandForm").addEventListener("submit", function(event) {
+        const startTime = new Date(document.getElementById("start_time").value);
+        const endTime = new Date(document.getElementById("end_time").value);
+
+        if (startTime >= endTime) {
+            event.preventDefault();
+            alert("Start Time must be earlier than End Time.");
+        }
+    });
+</script>
+{% endblock %}

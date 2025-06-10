@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}Show Parking Lot Area{% endblock %}
+
+{% block head %}
+    <style>
+        .matrix-row {
+            margin-bottom: 5px;
+        }
+        .cell {
+            display: inline-block;
+            width: 25px; /* Increased width for better alignment */
+            text-align: right; /* Right-align the numbers */
+            margin-right: 10px;
+            font-family: "Courier New", monospace; /* Monospace font for even alignment */
+        }
+        
+    </style>
+{% endblock %}
+
+{% block content %}
+    <h1>Matrix with Colors</h1>
+    <p style="color: black; display: inline-block; margin: 0 10px;"> -1: wall</p>
+    <p style="color: gray; display: inline-block; margin: 0 10px;"> 0: space</p>
+    <p style="color: green; display: inline-block; margin: 0 10px;"> 1: empty unbooked</p>
+    <p style="color: red; display: inline-block; margin: 0 10px;"> 2: parked unbooked</p>
+    <p style="color: orange; display: inline-block; margin: 0 10px;"> 3: empty booked</p>
+    <p style="color: pink; display: inline-block; margin: 0 10px;"> 4: parked booked</p>
+
+    <div>
+        {% for row in area %}
+            <div class="matrix-row">
+                {% for value in row %}
+                    <span class="cell" style="
+                        {% if value == -1.0 %} color: black; font-weight: bold;
+                        {% elif value == 1.0 %} color: green; 
+                        {% elif value == 0.0 %} color: gray; 
+                        {% elif value == 2.0 %} color: red; 
+                        {% elif value == 3.0 %} color: Orange; 
+                        {% elif value == 4.0 %} color: pink; 
+                        {% endif %}
+                    ">{{ value | int }}</span>
+                {% endfor %}
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

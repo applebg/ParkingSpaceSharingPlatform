@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1 class="mt-4">Match</h1>
+    
+    <!-- Radio buttons for choosing options -->
+    {% if current_user.role == "admin" %}
+    <form method="POST" action="{{ url_for('match') }}">
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="choice" id="First Fit" value="First Fit" checked>
+            <label class="form-check-label" for="First Fit">
+                First Fit
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="choice" id="Best Fit" value="Best Fit">
+            <label class="form-check-label" for="Best Fit">
+                Best Fit
+            </label>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Submit</button>
+    </form>
+    {% endif %}
+    {% if current_user.role != "admin" %}
+    <form method="POST" action="{{ url_for('match') }}">
+        <button type="submit" class="btn btn-primary mt-3">Get Result</button>
+    </form>
+    {% endif %}
+
+    <br>
+    <h1>Match Result for {{ current_user.username }} ({{ current_user.role }})</h1>
+    <table class="table table-striped mt-4">
+        <thead>
+            <tr>
+                {% if current_user.role == "admin" %}
+                <th>owner</th>
+                {% endif %}
+                <th>assigned lot</th>
+                <th>lot start time</th>
+                <th>lot end time</th>
+                <th>borrower</th>
+                <th>borrower start time</th>
+                <th>borrower end time</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for record in data %}
+            <tr>
+                {% if current_user.role == "admin" %}
+                <th>{{ record.owner_username}}</th>
+                {% endif %}
+                <td>{{ record.assigned_lot }}</td>
+                <td>{{ record.lot_start }}</td>
+                <td>{{ record.lot_end }}</td>
+                <td>{{ record.borrower_username }}</td>
+                <td>{{ record.borrower_start }}</td>
+                <td>{{ record.borrower_end }}</td>
+                
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <br>
+    
+    {% if stats is defined and current_user.role == "admin" %}
+    <h1>Statistics</h1>
+    <table class="table table-striped mt-4">
+        <thead>
+            <tr>
+                <th>Borrower Records</th>
+                <th>Total Required Time (hours)</th>
+                <th>Total Provided Time (hours)</th>
+                <th>Total Matched Time (hours)</th>
+                <th>Match Ratio</th>
+                <th>Space Utilization</th>
+            </tr>
+        </thead>
+        <tbody>
+           
+            <tr>
+                <td>{{ stats["Borrower Records"] }}</td>
+                <td>{{ stats["Total Required Time (hours)"]|round|int }}</td>
+                <td>{{ stats["Total Provided Time (hours)"]|round|int }}</td>
+                <td>{{ stats["Total Matched Time (hours)"]|round|int }}</td>
+                <td>{{ stats["Match Ratio"]|round(4)}}</td>
+                <td>{{ stats["Space Utilization"]|round(4)}}</td>
+                
+            </tr>
+            
+        </tbody>
+    </table>
+    {% endif %}
+{% endblock %}
