@@ -20,7 +20,8 @@ logging.basicConfig(
 
 def create_data():
     '''Fetch data from database then return the dataframe that I want\n
-    note that the format of data fetched from database must not be altered because it will affect the following functions\n
+    note that the format of data fetched from database must not be altered because it will affect the following functions.\n
+    This means that a few funtions depend on the return data of this function!
     see the SQL commands for detail'''
     # Path to your SQLite database
     db_path = 'instance/database.db'
@@ -95,7 +96,9 @@ def match_owners_and_borrowers_with_splitting(owner_df, borrower_df, sub_interva
     :param owner_df: Pandas DataFrame for owners.
     :param borrower_df: Pandas DataFrame for borrowers.
     :param sub_interval_duration: Duration of each sub-interval (timedelta object).
-    :return: Matching results.
+    :return: Matching results.\n
+
+    deprecated and unused on 2025/06/11
     """
     from itertools import product
     
@@ -156,7 +159,8 @@ def match_owners_and_borrowers_with_splitting(owner_df, borrower_df, sub_interva
 
 
 def match_onwers_and_borrowers_get_df(solution:dict, borrower_df:pd.DataFrame) -> pd.DataFrame:
-    '''given a solution made by match_owners_and_borrowers(), this function generates the dataframe that represents the solution'''
+    '''given a solution made by match_owners_and_borrowers(), this function generates the dataframe that represents the solution\n
+    deprecated and unused on 2025/06/11'''
     borrower_df["matched_owner_idx"] = "" # add a new column which represents matched owner index
     for borrower_idx, owner_idx in solution.items():
         if owner_idx is not None:

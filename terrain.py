@@ -1,5 +1,5 @@
 '''This class is used to create a terrain on which parking lots will be created\n
-code and meaning:
+status code and meaning:
 -1 : wall (black)
 0 : space (gray)
 1 : empty parking lot (green)
