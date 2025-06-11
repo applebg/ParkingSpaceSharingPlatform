@@ -1,6 +1,7 @@
 # ParkingSpaceSharingPlatform
-**This is my graduate school project** This project simulates the supply and demand of parking spaces.
-Optimization algorithms are implemented to help match such supply and demand
+**This is my graduate school project** 
+This project simulates the supply and demand of parking spaces.
+Optimization algorithms are implemented to help match such supply and demand.
 
 ## How to run this project
 To run this project, users have to follow this instruction
@@ -11,7 +12,7 @@ To run this project, users have to follow this instruction
   5. On a browser, go to http://127.0.0.1:5000
 
 ## Project Explaination
-In modern society, utilization of limited space resoruces has attracted the attention of some scholars. 
+In modern society, optimal utilization of limited space resoruces has attracted the attention of some scholars. 
 It would be nice if we can make good use of limited space resources. To do this, I used optimization algorithms
 to solve space allocation problems.
 ### Problem Scenario
@@ -26,8 +27,8 @@ to solve space allocation problems.
 1. Basic CRUD for three kinds of users: admin, borrower, and owners. Each one of them has his/her seperate view (UI which he/she can see).
 2. Simple parking space map, which is represented by a matrix. In this matrix, each parking lot has a status code, and -1 means unwalkable wall,
    0 means walkable space, 1 to 4 represent parking lots of different status.
-4. faster query of parking lots of different status code.
-5. Admin can choose either *First Fit* or *Best Fit* should be applied to the matching of parking lots.
+4. Faster query of parking lots of different status code.
+5. Admin can choose either *First Fit* or *Best Fit* to be applied to the matching of parking lots.
 6. Admin can compare the performance of *First Fit* and *Best Fit*
 
 ## Note that .....
