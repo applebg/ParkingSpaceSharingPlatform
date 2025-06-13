@@ -31,8 +31,11 @@ to solve space allocation problems.
 5. Admin can choose either *First Fit* or *Best Fit* to be applied to the matching of parking lots.
 6. Admin can compare the performance of *First Fit* and *Best Fit*
 
-## Note that .....
-There will be a link to my thesis article soon. :joy: 
+## Thesis article link
+Here is the link to my thesis article: 
+  https://1drv.ms/b/c/f3b927696ce844e7/ERhL8uYiPuVDsozWAj7vcl4B7oPh9AKLPusZE4J6xbJnUw?e=ScPdbr
+In this thesis, the details of this project is documented.
+:joy: 
 
 ## screenshots
 ### parking space matrix
